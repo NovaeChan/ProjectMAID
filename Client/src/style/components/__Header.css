@@ -1,0 +1,29 @@
+@import '../variables.css';
+@import '../fonts.css';
+
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 20px 10% 20px 10%;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    margin-bottom: 20px;
+}
+.header-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-size: 700;
+}
+.header-menu {
+    font-size: 20px;
+    font-weight: 600;
+}
+.header-menu-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-menu-list li{
+    padding: 10px;
+}

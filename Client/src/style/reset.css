@@ -1,0 +1,15 @@
+/* reset.css (reset des styles par défaut du navigateur) */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}

@@ -1,0 +1,40 @@
+@import '../variables.css';
+@import '../fonts.css';
+
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 20px 10% 20px 10%;
+    justify-content: space-between;
+    background-color: var(--primary-color);   
+    margin-top: auto; 
+}
+
+.footer-copyright{ 
+    display: flex;
+    width: 185px;
+    height: 21px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/* .footer-copyright span{
+    width: 50%;
+} */
+
+.footer-link {
+    column-count: 2;
+    column-gap: 20px;
+}
+.footer-link li {
+    margin-bottom: 5px;
+}
+.footer-link a {
+    display: flex;
+    align-items: center;
+}
+.footer-link img{
+    filter: brightness(0) invert(1) grayscale(100%);
+}
